@@ -42,4 +42,7 @@ public class Main {
 
         } while (option != 5);
     }
+            public static double getPesoBajo(){
+
+            }
 }
