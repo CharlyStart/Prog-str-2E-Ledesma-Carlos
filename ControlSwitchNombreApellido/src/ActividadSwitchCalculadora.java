@@ -31,13 +31,13 @@ public class ActividadSwitchCalculadora {
                 break;
 
             case 3:
-                resultado = numero1 + numero2;
+                resultado = numero1 * numero2;
                 System.out.println("Multiplicacion");
                 System.out.println("El resusltado del numero "+numero1+" y el numero "+numero2+" es "+resultado);
+                break;
 
             case 4:
                 System.out.println("Division");
-                System.out.println("El numero "+numero1+" y el numero "+numero2);
                 if (numero2==0){
                     System.out.println("No se pude dividir entre 0");
                 }
